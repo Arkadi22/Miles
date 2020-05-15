@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        double priceticketrub = 9000.20D;
-        int priceInKops = (int) (priceticketrub * 100);
-        double oneMileCostrub = 20D;
-        int oneMileCostKops = (int) (oneMileCostrub * 100);
-        int milesamount = priceInKops / oneMileCostKops;
-        System.out.println(milesamount);
+        double PriceTicketRub = 9000.20D;
+        int PriceInKops = (int) (PriceTicketRub * 100);
+        double OneMileCostrub = 20D;
+        int oneMileCostKops = (int) (OneMileCostrub * 100);
+        int MilesAmount = PriceInKops / oneMileCostKops;
+        System.out.println(MilesAmount);
     }
 }
 
